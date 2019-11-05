@@ -1,1 +1,3 @@
 GFL Live2D Viewer
+This is a general viewer for the Live2D models of mobile game Girls Frontline
+There are only data obtained from the wiki as of current, will update soon...
