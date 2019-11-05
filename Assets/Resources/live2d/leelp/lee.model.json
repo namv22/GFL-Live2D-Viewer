@@ -1,0 +1,49 @@
+{
+	"type":"Live2D Model Setting",
+	"name":"Lee-Enfield",
+	"model":"Lee-Enfield_costume2_live2d_model.moc",
+	"textures":
+	[
+		"lee.1024/Lee-Enfield_costume2_live2d_texture_00.png"
+	],
+
+	"layout":
+	{
+        "x":0,
+		"y":0,
+        "center_x":0,
+        "center_y":-0.005,
+		"height":1.59
+	},
+	"hit_areas":
+	[
+        {"name":"head", "id":"D_REF.HEAD"},
+		{"name":"body", "id":"D_REF.BODY"}
+	],
+	"motions":
+	{
+		"idle":
+		[
+			{"file":"motions/Lee-Enfield_costume2_live2d_daiji_idle_01.mtn", "sound":""  ,"fade_in":2000, "fade_out":2000},
+			{"file":"motions/Lee-Enfield_costume2_live2d_wait_1.mtn", "sound":""  ,"fade_in":2000, "fade_out":2000},
+			{"file":"motions/Lee-Enfield_costume2_live2d_wait_2.mtn", "sound":""  ,"fade_in":2000, "fade_out":2000},
+			{"file":"motions/Lee-Enfield_costume2_live2d_wedding.mtn", "sound":"sounds/MLEMK1_SOULCONTRACT_JP.mp3"  ,"fade_in":2000, "fade_out":2000}
+		],
+		"tap_body":
+		[
+            { "file":"motions/Lee-Enfield_costume2_live2d_touch_3.mtn", "sound":"" ,"fade_out":0},
+            { "file":"motions/Lee-Enfield_costume2_live2d_touch_4.mtn", "sound":"" ,"fade_out":0},
+            { "file":"motions/Lee-Enfield_costume2_live2d_touch_5.mtn", "sound":"" ,"fade_out":0}
+		],
+		"tap_head":
+		[
+			{ "file":"motions/Lee-Enfield_costume2_live2d_touch_1.mtn", "sound":"" ,"fade_out":0},
+			{ "file":"motions/Lee-Enfield_costume2_live2d_touch_2.mtn", "sound":"" ,"fade_out":0},
+			{ "file":"motions/Lee-Enfield_costume2_live2d_wedding_touch.mtn", "sound":"" ,"fade_out":0}
+        ],
+		"shake":
+		[
+			{ "file":"motions/Lee-Enfield_costume2_live2d_shake.mtn", "sound":"","fade_in":500 ,"fade_out":0}
+		]
+	}
+}

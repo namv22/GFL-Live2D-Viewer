@@ -1,0 +1,47 @@
+{
+	"type":"Live2D Model Setting",
+	"name":"Lee-Enfield",
+	"model":"Lee-Enfield_costume2_D_live2d_model.moc",
+	"textures":
+	[
+		"lee.1024/Lee-Enfield_costume2_D_live2d_texture_00.png"
+	],
+	"physics":"Lee-Enfield_costume2_D_live2d_physics.json",
+	
+	"layout":
+	{
+        "x":2,
+		"y":0,
+        "center_x":0.02,
+        "center_y":0.050,
+		"height":1.69
+	},
+	"hit_areas":
+	[
+        {"name":"head", "id":"D_REF.HEAD"},
+		{"name":"body", "id":"D_REF.BODY"}
+	],
+	"motions":
+	{
+		"idle":
+		[
+			{"file":"motions/Lee-Enfield_costume2_D_live2d_daiji_idle_02.mtn", "sound":""  ,"fade_in":2000, "fade_out":2000},
+			{"file":"motions/Lee-Enfield_costume2_D_live2d_wait_3.mtn", "sound":""  ,"fade_in":2000, "fade_out":2000}
+		],
+		"tap_body":
+		[
+            { "file":"motions/Lee-Enfield_costume2_D_live2d_broken_3.mtn", "sound":"" ,"fade_out":0},
+            { "file":"motions/Lee-Enfield_costume2_D_live2d_broken_4.mtn", "sound":"" ,"fade_out":0},
+            { "file":"motions/Lee-Enfield_costume2_D_live2d_broken_5.mtn", "sound":"" ,"fade_out":0}
+		],
+		"tap_head":
+		[
+			{ "file":"motions/Lee-Enfield_costume2_D_live2d_broken_1.mtn", "sound":"" ,"fade_out":0},
+			{ "file":"motions/Lee-Enfield_costume2_D_live2d_broken_2.mtn", "sound":"" ,"fade_out":0}
+        ],
+		"shake":
+		[
+			{ "file":"motions/Lee-Enfield_costume2_D_live2d_shake.mtn", "sound":"","fade_in":500 ,"fade_out":0}
+		]
+	}
+}

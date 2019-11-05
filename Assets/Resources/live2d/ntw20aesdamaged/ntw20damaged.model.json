@@ -1,0 +1,50 @@
+{
+	"type":"Live2D Model Setting",
+	"name":"NTW-20",
+	"model":"NTW-20_costume3_D_live2d_model.moc",
+	"textures":
+	[
+		"ntw20.1024/NTW-20_costume3_D_live2d_texture_00.png"
+	],
+	"physics":"NTW-20_costume3_D_live2d_physics.json",
+	
+	"layout":
+	{
+        "x":0,
+		"y":0,
+        "center_x":0.028,
+        "center_y":0.044,
+		"height":1.377
+	},
+	"hit_areas":
+	[
+        {"name":"head", "id":"D_REF.HEAD"},
+		{"name":"body", "id":"D_REF.BODY"},
+		{"name":"leg", "id":"D_REF.LEG"}
+	],
+	"motions":
+	{
+		"idle":
+		[
+            {"file":"motions/NTW-20_costume3_D_live2d_daiji_idle_01.mtn", "fade_in":2000, "fade_out":2000}
+		],
+		"tap_head":
+		[
+			{ "file":"motions/NTW-20_costume3_D_live2d_broken_3.mtn", "fade_out":0}
+		],
+		"tap_body":
+		[
+			{ "file":"motions/NTW-20_costume3_D_live2d_broken_1.mtn", "fade_out":0},
+            { "file":"motions/NTW-20_costume3_D_live2d_broken_2.mtn", "fade_out":0}
+		],
+		"tap_leg":
+		[
+			{ "file":"motions/NTW-20_costume3_D_live2d_broken_4.mtn", "fade_out":0},
+            { "file":"motions/NTW-20_costume3_D_live2d_broken_5.mtn", "fade_out":0}
+        ],
+		"shake":
+		[
+			{ "file":"motions/NTW-20_costume3_D_live2d_shake.mtn", "sound":"","fade_in":500 ,"fade_out":0}
+		]
+	}
+}

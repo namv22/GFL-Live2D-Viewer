@@ -1,0 +1,41 @@
+{
+	"version":"Sample 1.0.0",
+	"model":"model.moc",
+	"textures":[
+		"model.1024/texture_00.png"
+	],
+	"physics":"physics.json",
+	"motions":{
+		"idle":[
+			{"file":"motions/idle.mtn", "fade_in":2000, "fade_out":2000},
+			{"file":"motions/login.mtn", "fade_in":2000, "fade_out":2000},
+			{"file":"motions/wedding.mtn", "fade_in":2000, "fade_out":2000},
+			{"file":"motions/wait_2.mtn", "fade_in":2000, "fade_out":2000},
+			{"file":"motions/wait_1.mtn", "fade_in":2000, "fade_out":2000}
+		],
+		"shake":
+		[
+			{ "file":"motions/shake.mtn","fade_in":500 ,"fade_out":0, "sound":""}
+		],
+		"tap_head":
+		[
+			{ "file":"motions/touch_3.mtn", "fade_out":0}
+		],
+		"tap_hand":
+		[
+			{ "file":"motions/touch_1.mtn", "fade_out":0},
+            { "file":"motions/touch_2.mtn", "fade_out":0}
+            
+		],
+		"tap_diao":
+		[
+			{ "file":"motions/touch_4.mtn", "fade_out":0},
+            { "file":"motions/touch_5.mtn", "fade_out":0}
+        ]
+	},
+	"hit_areas":[
+			{"name":"head","id":"D_REF_HEAD"},
+			{"name":"diao","id":"D_REF_DIAO"},
+			{"name":"hand","id":"D_REF_HAND"}
+			]
+}

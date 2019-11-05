@@ -1,0 +1,52 @@
+{
+	"type":"Live2D Model Setting",
+	"name":"Vector",
+	"model":"Vector_costume2_live2d_model.moc",
+	"textures":
+	[
+		"vector.1024/Vector_costume2_live2d_texture_00.png"
+	],
+	"physics":"Vector_costume2_live2d_physics.json",
+	
+	"layout":
+	{
+        "x":0,
+		"y":0,
+        "center_x":0,
+        "center_y":0,
+		"height":1.5
+	},
+	"hit_areas":
+	[
+        {"name":"head", "id":"D_REF.HEAD"},
+		{"name":"body", "id":"D_REF.BODY"}
+	],
+	"motions":
+	{
+		"idle":
+		[
+			
+            {"file":"motions/Vector_costume2_live2d_login.mtn", "fade_in":2000, "fade_out":2000},
+            {"file":"motions/Vector_costume2_live2d_daiji_idle_01.mtn", "fade_in":2000, "fade_out":2000},
+            {"file":"motions/Vector_costume2_live2d_wait_1.mtn", "fade_in":2000, "fade_out":2000},
+            {"file":"motions/Vector_costume2_live2d_wait_2.mtn", "fade_in":2000, "fade_out":2000},
+            {"file":"motions/Vector_costume2_live2d_wedding.mtn", "sound":"sounds/Vector_SOULCONTRACT_JP.mp3", "fade_in":2000, "fade_out":2000}
+		],
+		"tap_head":
+		[
+			{ "file":"motions/Vector_costume2_live2d_touch_3.mtn", "fade_out":0},
+			{ "file":"motions/Vector_costume2_live2d_wedding_touch.mtn", "fade_out":0}
+		],
+		"tap_body":
+		[
+			{ "file":"motions/Vector_costume2_live2d_touch_1.mtn", "fade_out":0},
+            { "file":"motions/Vector_costume2_live2d_touch_2.mtn", "fade_out":0},
+            { "file":"motions/Vector_costume2_live2d_touch_4.mtn", "fade_out":0},
+            { "file":"motions/Vector_costume2_live2d_touch_5.mtn", "fade_out":0}
+        ],
+		"shake":
+		[
+			{ "file":"motions/Vector_costume2_live2d_shake.mtn", "sound":"","fade_in":500 ,"fade_out":0}
+		]
+	}
+}

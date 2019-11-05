@@ -1,0 +1,52 @@
+{
+	"type":"Live2D Model Setting",
+	"name":"DSR-50",
+	"model":"DSR-50_costume1_D_live2d_model.moc",
+	"textures":
+	[
+		"dsr50.1024/DSR-50_costume1_D_live2d_texture_00.png"
+	],
+	"physics":"DSR-50_costume1_D_live2d_physics.json",
+	
+	"layout":
+	{
+        "x":2,
+		"y":0,
+        "center_x":0,
+        "center_y":0.3,
+		"height":1.8
+	},
+	"hit_areas":
+	[
+        {"name":"head", "id":"D_REF.FACE"},
+		{"name":"body", "id":"D_REF.BODY"},
+		{"name":"leg", "id":"D_REF.LEG"}
+	],
+	"motions":
+	{
+		"idle":
+		[			
+            {"file":"motions/DSR-50_costume1_D_live2d_login.mtn", "fade_in":2000, "fade_out":2000},
+            {"file":"motions/DSR-50_costume1_D_live2d_daiji_idle_01.mtn", "fade_in":2000, "fade_out":2000}
+		],
+		"tap_head":
+		[
+			{ "file":"motions/DSR-50_costume1_D_live2d_broken_3.mtn", "fade_out":0}
+		],
+		"tap_body":
+		[
+			{ "file":"motions/DSR-50_costume1_D_live2d_broken_1.mtn", "fade_out":0},
+            { "file":"motions/DSR-50_costume1_D_live2d_broken_2.mtn", "fade_out":0}
+            
+		],
+		"tap_leg":
+		[
+			{ "file":"motions/DSR-50_costume1_D_live2d_broken_4.mtn", "fade_out":0},
+            { "file":"motions/DSR-50_costume1_D_live2d_broken_5.mtn", "fade_out":0}
+        ],
+		"shake":
+		[
+			{ "file":"motions/DSR-50_costume1_D_live2d_shake.mtn", "sound":"","fade_in":500 ,"fade_out":0}
+		]
+	}
+}
