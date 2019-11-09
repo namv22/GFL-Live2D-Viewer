@@ -1,54 +1,71 @@
 {
 	"type":"Live2D Model Setting",
-	"name":"DS-50",
-	"model":"DSR-50_costume2_live2d_model.moc",
+	"name":"Kalina",
+	"model":"Kalina_live2d_model.moc",
 	"textures":
 	[
-		"dsr50.1024/DSR-50_costume2_live2d_texture_00.png"
+		"kalina.1024/Kalina_live2d_texture_00.png"
 	],
-	"physics":"DSR-50_costume2_live2d_physics.json",
-	"pose":"DSR-50_costume2_live2d_pose.json",
+	"physics":"Kalina_live2d_physics.json",
+	"pose":"Kalina_live2d_pose.json",
 	
 	"layout":
 	{
-        "x":2,
+        "x":0,
 		"y":0,
-        "center_x":0.1,
-        "center_y":0,
-		"height":1.6
+        "center_x":0,
+        "center_y":0.2,
+		"height":1.4
 	},
 	"hit_areas":
 	[
         {"name":"head", "id":"D_REF.FACE"},
 		{"name":"body", "id":"D_REF.BODY"},
-		{"name":"leg", "id":"D_REF.LEG"}
+		{"name":"arm", "id":"D_REF.ARM_L"}
 	],
 	"motions":
 	{
 		"idle":
 		[
-			{"file":"motions/DSR-50_costume2_live2d_login.mtn", "sound":"sounds/DSR-50_HELLO_JP.mp3"  ,"fade_in":2000, "fade_out":2000},
-			{"file":"motions/DSR-50_costume2_live2d_daiji_idle_01.mtn", "sound":"sounds/DSR-50_DIALOGUE1_JP.mp3"  ,"fade_in":2000, "fade_out":2000},
-			{"file":"motions/DSR-50_costume2_live2d_wait_1.mtn", "sound":"sounds/DSR-50_DIALOGUE2_JP.mp3"  ,"fade_in":2000, "fade_out":2000},
-			{"file":"motions/DSR-50_costume2_live2d_wait_2.mtn", "sound":"sounds/DSR-50_DIALOGUE3_JP.mp3"  ,"fade_in":2000, "fade_out":2000}
+			{"file":"motions/Kalina_live2d_daiji_idle_01.mtn", "sound":""  ,"fade_in":2000, "fade_out":2000},
+			{"file":"motions/Kalina_live2d_wait_1.mtn", "sound":""  ,"fade_in":2000, "fade_out":2000},
+			{"file":"motions/Kalina_live2d_wait_2.mtn", "sound":""  ,"fade_in":2000, "fade_out":2000},
+			{"file":"motions/Kalina_live2d_wait_3.mtn", "sound":""  ,"fade_in":2000, "fade_out":2000},
+			{"file":"motions/Kalina_live2d_wait_4.mtn", "sound":""  ,"fade_in":2000, "fade_out":2000}
 		],
 		"tap_head":
 		[
-			{ "file":"motions/DSR-50_costume2_live2d_touch_3.mtn", "sound":"sounds/DSR-50_FEED_JP.mp3" ,"fade_out":0}
+			{ "file":"motions/Kalina_live2d_touch_head.mtn", "sound":"" ,"fade_in":2000, "fade_out":2000},
+			{ "file":"motions/Kalina_live2d_mall_3.mtn", "sound":"" ,"fade_in":2000, "fade_out":2000},
+			{ "file":"motions/Kalina_live2d_kalina_004.mtn", "sound":"" ,"fade_in":2000, "fade_out":2000},
+			{ "file":"motions/Kalina_live2d_kalina_014.mtn", "sound":"" ,"fade_in":2000, "fade_out":2000},
+			{ "file":"motions/Kalina_live2d_kalina_024.mtn", "sound":"" ,"fade_in":2000, "fade_out":2000},
+			{ "file":"motions/Kalina_live2d_enter_shop.mtn.mtn", "sound":"" ,"fade_in":2000, "fade_out":2000}
 		],
 		"tap_body":
 		[
-			{ "file":"motions/DSR-50_costume2_live2d_touch_1.mtn", "sound":"sounds/DSR-50_COMBINE_JP.mp3" ,"fade_out":0},
-			{ "file":"motions/DSR-50_costume2_live2d_touch_2.mtn", "sound":"sounds/DSR-50_BLACKACTION_JP.mp3" ,"fade_out":0}
+			{ "file":"motions/Kalina_live2d_touch_breast.mtn", "sound":"" ,"fade_in":2000, "fade_out":2000},
+			{ "file":"motions/Kalina_live2d_mall_2.mtn", "sound":"" ,"fade_in":2000, "fade_out":2000},
+			{ "file":"motions/Kalina_live2d_mall_1.mtn", "sound":"" ,"fade_in":2000, "fade_out":2000},
+			{ "file":"motions/Kalina_live2d_kalina_025.mtn", "sound":"" ,"fade_in":2000, "fade_out":2000},
+			{ "file":"motions/Kalina_live2d_kalina_027.mtn", "sound":"" ,"fade_in":2000, "fade_out":2000},
+			{ "file":"motions/Kalina_live2d_kalina_030.mtn", "sound":"" ,"fade_in":2000, "fade_out":2000},
+			{ "file":"motions/Kalina_live2d_buy_1.mtn", "sound":"" ,"fade_in":2000, "fade_out":2000}
         ],
-        "tap_leg":
+        "tap_arm":
 		[
-			{ "file":"motions/DSR-50_costume2_live2d_touch_4.mtn", "sound":"sounds/DSR-50_OPERATIONBEGIN_JP.mp3" ,"fade_out":0},
-			{ "file":"motions/DSR-50_costume2_live2d_touch_5.mtn", "sound":"sounds/DSR-50_OPERATIONOVER_JP.mp3" ,"fade_out":0}
+			{ "file":"motions/Kalina_live2d_touch_arm.mtn", "sound":"" ,"fade_in":2000, "fade_out":2000},
+			{ "file":"motions/Kalina_live2d_mall_4.mtn", "sound":"" ,"fade_in":2000, "fade_out":2000},
+			{ "file":"motions/Kalina_live2d_kalina_035.mtn", "sound":"" ,"fade_in":2000, "fade_out":2000},
+			{ "file":"motions/Kalina_live2d_kalina_037.mtn", "sound":"" ,"fade_in":2000, "fade_out":2000},
+			{ "file":"motions/Kalina_live2d_kalina_043.mtn", "sound":"" ,"fade_in":2000, "fade_out":2000},
+			{ "file":"motions/Kalina_live2d_kalina_054.mtn", "sound":"" ,"fade_in":2000, "fade_out":2000},
+			{ "file":"motions/Kalina_live2d_buy_2.mtn", "sound":"" ,"fade_in":2000, "fade_out":2000}
 		],
 		"shake":
 		[
-			{ "file":"motions/DSR-50_costume2_live2d_shake.mtn", "sound":"","fade_in":500 ,"fade_out":0}
+			{ "file":"motions/Kalina_live2d_shake.mtn", "sound":"","fade_in":500, "fade_out":2000},
+			{ "file":"motions/Kalina_live2d_levelup.mtn", "sound":"","fade_in":500, "fade_out":2000}
 		]
 	}
 }

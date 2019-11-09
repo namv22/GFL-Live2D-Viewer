@@ -1,1 +1,4 @@
-sceneSetups: []
+sceneSetups:
+- path: Assets/GFL Live2D Viewer.unity
+  isLoaded: 1
+  isActive: 1
